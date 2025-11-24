@@ -1,8 +1,12 @@
-@import "tailwindcss";
+@import "tailwindcss/preflight";
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #D9EACF; /* D9EACF background */
+  --text-primary: #00756A; /* 00756A text-primary */
+  --text-secondary: #414C4C; /* 414C4C text-secondary */
+  --text-secundary: #414C4C; /* alias con la ortografía proporcionada */
+  --foreground: var(--text-secondary);
 }
 
 @theme inline {
